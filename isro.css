@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.isro{
+    height: 500px;
+    width: 100%; 
+    background-color:rgb(0, 0, 139);  
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.isro img{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 400px;
+    width: 10%;
+}
+.isro .logo img{
+   width: 65%;
+   height: 400px;
+   padding-left: 210px;
+}
+.isro .lion img{
+    width:70%;
+    height:400px;
+}
+.isro h2{
+   margin-top: 40px;
+    padding-left: 1400px;
+    font-size: 60px;
+    color: white;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+.isro h1{
+    margin-top: 55px;
+    padding-left: 1000px;
+     font-size: 70px;
+   font-weight: bold;
+     color: white;
+     word-spacing: 5px;
+ }
+ .isro h3{
+    margin-top: 45px;
+    padding-left: 1400px;
+     font-size: 50px;
+     color:white;
+     word-spacing: 5px;
+ }
+ .home{
+    background-color: royalblue;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .home a{
+    padding: 30px ;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+ }
+ .video{
+    height: 3000px;
+    width: 100%;
+ }
+ .video iframe{
+    height: inherit;
+    width: inherit;
+ }
+ .portal{
+    background-color:royalblue;
+    height: 700px;
+    width: 100%;
+ }
+ .portal h2{
+    font-size: 70px;
+    color: white;
+    padding: 30px 60px;
+ }
+ .portal .small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .portal .small h2{
+    font-size: 30px;
+    color: black;
+ }
+ .portal .small img{
+    height: 295px;
+    width: 295px;
+    border-radius: 50%;
+ }
+.portal .name{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+}
+.recent{
+    height: 1000px;
+    width: 100%;
+    
+}
+.recent h2{
+    background-color: azure;
+    font-size: 80px;
+    font-weight: bold;
+    color: royalblue;
+    padding: 40px 60px;
+}
+.recent img{
+    
+    padding-left: 70px;
+    height: 700px;
+    width: 19%;
+    transition: all 1s;
+}
+.recent .img:hover{
+    background-color: rgba(0,0,0,0.5);
+  
+}
+.link {
+    height: 600px;
+    width: 100%;
+    background:linear-gradient(65deg,black,purple,darkblue);
+}
+.link h2{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 50px 100px;
+}
+.link .use{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.link .use input{
+    height: 130px;
+    width:496px;
+    border-radius: 70px;
+    background-color: chocolate;
+}
+.link .use input::placeholder{
+    font-size:50px;
+    text-align: center;
+    color: white;
+}
